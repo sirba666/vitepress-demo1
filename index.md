@@ -1,11 +1,10 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
-  name: "My Awesome Project"
+  name: "SIRBA's Web"
   text: "A VitePress 网站"
-  tagline: My great project tagline
+  tagline: SIRBA && 友利奈绪
   actions:
     - theme: brand
       text: Markdown Examples

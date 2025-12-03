@@ -1,0 +1,21 @@
+
+/* 用更具体的选择器（针对VitePress默认结构） */
+body .vp-app .vp-home {
+  position: relative;
+  z-index: 0;
+}
+
+body .vp-app .vp-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important; /* 强制占满宽度 */
+  height: 100vh !important; /* 强制占满整个屏幕高度 */
+  background-image: url('/vitepress-demo1/docs/public/images/a.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  opacity: 0.3 !important;
+  z-index: -1 !important; /* 确保在最底层 */
+}

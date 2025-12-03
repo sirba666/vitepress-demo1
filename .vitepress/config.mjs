@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // base 设置成你的github仓库名
   base: '/vitepress-demo1/',
-  title: "My Awesome Project",
+  title: "Sirba's Zone",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
